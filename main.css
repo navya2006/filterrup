@@ -55,13 +55,12 @@ body{
 }
 
 .nav a:hover {
-    color: var(--color-three);
-    border-bottom-color: var(--color-three);
+    border-bottom-color: var(--secondary-color);
     opacity: 1;
 }
 
 .nav h1:hover{
-    border-bottom-color: var(--color-three);
+    border-bottom-color: var(--secondary-color);
 }
 
 /*HOME*/
