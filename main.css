@@ -3,7 +3,7 @@
     --secondary-color: #fff;
     --color-three: #fbb8ff;
     --color-four: #005187;
-    --color-five: #3916b8;
+    --color-five: #1b1d87;
     
 }
 
@@ -16,7 +16,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 
 body{
     background-color: #fff;
