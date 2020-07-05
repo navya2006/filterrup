@@ -27,7 +27,7 @@ body{
 /*NAVBAR*/
 .nav{
     background-color: var(--primary-color);
-    padding: 7px 0px;
+    padding: 5px 0px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -42,7 +42,7 @@ body{
     font-size: 1.5vw;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5;
-    padding: 1.5vw 3vw;
+    padding: 1.5vw 1vw;
     text-decoration: none;
     margin-right: 0.5vw;
     position: relative;
