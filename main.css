@@ -21,6 +21,7 @@ html{
 
 body{
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 /*NAVBAR*/
@@ -99,7 +100,7 @@ body{
     font-size: 7vw;
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 0.5vw;
-    padding-top: 20vw;
+    padding-top: 25vw;
     padding-left: 6vw;
 }
 
@@ -121,13 +122,15 @@ body{
 .about .icon-large{
     font-size: 15em;
     width: 1vw;
-    margin-left: 38vw;
+    margin-left: 36.5vw;
     color: var(--primary-color);
-    padding-top: 0vw;
+    padding-top: 2vw;
 }
 
 .about .info{
-    padding: 3vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 2vw;
 }
 
 .about .info h2{
