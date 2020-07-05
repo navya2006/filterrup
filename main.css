@@ -37,15 +37,15 @@ body{
 
 .navb .bar a {
     float: right;
-    display: block;
+    display: inline-block;
     color: var(--secondary-color);
     border: 3px solid transparent;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5;
-    padding: 10px 15px;
+    padding: 1.5vw 3vw;
     text-decoration: none;
-    margin-right: 0.5vw;;
+    margin-right: 0.5vw;
     position: relative;
     opacity: 0.8;
     transition: 0.5s;
@@ -63,14 +63,38 @@ body{
     transition: 0.5s;
 }
 
+<<<<<<< HEAD
 .navb a:hover {
+=======
+.nav img {
+	height:5vw;
+	width:5vw;
+	float:left;
+	padding:0.5vw;
+	padding-top:0.7vw;
+	margin:auto;
+	margin-left:1vw;
+	transition:0.3s;
+	position:relative;
+}
+
+
+.nav .bar a:hover {
+>>>>>>> e489952ee7fb0955415ff1088bb0105fcb5b2d81
     border-bottom-color: var(--secondary-color);
     opacity: 1;
 }
 
+<<<<<<< HEAD
 .navb h1:hover{
     border-bottom-color: var(--secondary-color);
+=======
+.nav img:hover {
+	height:5.2vw;
+	width:5.2vw;
+>>>>>>> e489952ee7fb0955415ff1088bb0105fcb5b2d81
 }
+
 
 /*HOME*/
 .homepage{
@@ -113,14 +137,19 @@ body{
 }
 
 .about .icon-large{
-    font-size: 15em;
-    width: 1vw;
-    margin-left: 36.5vw;
+    font-size: 9vw;
+    width: 0.8vw;
+    margin-left:44%;
     color: var(--primary-color);
+<<<<<<< HEAD
     padding-top: 4vw;
+=======
+    padding-top: 0.5vw;
+>>>>>>> e489952ee7fb0955415ff1088bb0105fcb5b2d81
 }
 
 .about .info{
+	padding-top:0;
     padding-left: 4vw;
     padding-right: 4vw;
     padding-bottom: 5vw;
