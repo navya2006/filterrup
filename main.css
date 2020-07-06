@@ -2,7 +2,7 @@
     --primary-color: #222;
     --secondary-color: #ff9900;
     --color-three: #16263b;
-    --color-four: #ff6f47;
+    --color-four: #333;
     --color-five: #fff;
     --color-six: #ffde85;
     --color-seven: #63f0f2;
@@ -170,6 +170,8 @@ body{
     background-color: var(--color-three);
     width: 100%;
     padding: 5vw;
+    padding-bottom: 7vw;
+    padding-top: 7vw;
 }
 
 .features .container{
@@ -265,4 +267,42 @@ body{
     width: 80vw;
     margin-left: 5vw;
     margin-top: 3vw;
+}
+
+/*FEEDBACK*/
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    background-color: var(--color-four);
+}
+
+.footer h1{
+    text-align: center;
+    background: -webkit-linear-gradient(#000 , #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #000; 
+    font-size: 7vw;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 0.5vw;
+    padding-top: 7vw;
+}
+
+.footer h2{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    padding-top: 0.5vw;
+    text-align: center;
+    letter-spacing: 0.4;
+}
+
+.footer p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.4;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 0.3vw;
 }
