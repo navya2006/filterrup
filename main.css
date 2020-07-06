@@ -32,6 +32,7 @@ body{
     position: absolute;
     top: 0;
     position: fixed;
+    z-index: 999;
 }
 
 .nav .bar a {
@@ -249,4 +250,18 @@ body{
 #i2:checked ~ .navb #dot2,
 #i3:checked ~ .navb #dot3{
     background: #666;
+}
+
+/*TEASER*/
+.teaser{
+    width: 100%;
+    background-color: var(--color-six);
+    padding: 5vw;
+}
+
+.teaser iframe{
+    height: 40vw;
+    width: 80vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
 }
