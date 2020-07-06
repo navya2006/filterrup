@@ -1,7 +1,7 @@
 :root{
     --primary-color: #222;
     --secondary-color: #ff9900;
-    --color-three: #fbb8ff;
+    --color-three: #16263b;
     --color-four: #ff6f47;
     --color-five: #fff;
     --color-six: #ffde85;
@@ -161,4 +161,85 @@ body{
     font-size: 1.7vw;
     text-align: center;
     font-family: 'Playfair Display', serif;
+}
+
+/*FEATURES*/
+.features{
+    background-color: var(--color-three);
+    width: 100%;
+    padding: 5vw;
+}
+
+.features .container{
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 70%;
+    height: 0;
+    padding-bottom: 40%;
+    background: #4c4c4c;
+    border: solid 10px #000;
+}
+
+.features .slide_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.features .slide_img img{
+    width: 100%;
+    height: 100%;
+}
+
+#i1, #i2, #i3{
+    display: none;
+}
+
+.features .pre, .nxt{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88,88,88,0.4);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.features .pre{
+    left: 0;
+}
+
+.features .nxt{
+    right: 0;
+}
+
+.features .navb{
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.features .dots{
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: #fff;
+}
+
+.features .slide_img{
+    z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three{
+    z-index: 9;
 }
