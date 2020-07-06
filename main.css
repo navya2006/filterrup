@@ -174,7 +174,7 @@ body{
     margin: 0 auto;
     margin-top: 20px;
     position: relative;
-    width: 70%;
+    width: 80%;
     height: 0;
     padding-bottom: 40%;
     background: #4c4c4c;
@@ -242,4 +242,10 @@ body{
 #i2:checked ~ #two,
 #i3:checked ~ #three{
     z-index: 9;
+}
+
+#i1:checked ~ .navb #dot1,
+#i2:checked ~ .navb #dot2,
+#i3:checked ~ .navb #dot3{
+    background: #666;
 }
