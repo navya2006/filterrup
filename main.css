@@ -189,6 +189,7 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
+    transition: 0.4s;
 }
 
 .features .slide_img img{
@@ -253,6 +254,26 @@ body{
 #i2:checked ~ .navb #dot2,
 #i3:checked ~ .navb #dot3{
     background: #666;
+}
+
+.features .ct .text {
+  position: absolute;
+  top: 27vw;
+  left: 19vw;
+  text-align: center;
+  color: #000;
+  font-size: 3vw;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.features .ct .text2{
+  position: absolute;
+  top: 27vw;
+  left: 26vw;
+  text-align: center;
+  color: #fff;
+  font-size: 3vw;
+  font-family: 'Bebas Neue', cursive;
 }
 
 /*TEASER*/
