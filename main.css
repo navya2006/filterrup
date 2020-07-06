@@ -203,7 +203,7 @@ body{
     height: 100%;
     position: absolute;
     top: 0;
-    background: rgba(0,0,0,0.6);
+    background: rgba(255, 255, 255, 0.5);
     z-index: 99;
     cursor: pointer;
 }
@@ -233,7 +233,8 @@ body{
     position: relative;
     border-radius: 50%;
     display: inline-block;
-    background: #fff;
+    background: var(--color-seven);
+    border: 3px solid #444;
 }
 
 .features .slide_img{
