@@ -111,10 +111,9 @@ body{
     background: -webkit-linear-gradient(#000 , #fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 8px #000; 
-    font-size: 7vw;
-    font-family: 'Alfa Slab One', cursive;
-    letter-spacing: 0.5vw;
+    -webkit-text-stroke: 2px #000; 
+    font-size: 10vw;
+    font-family: 'Dosis', sans-serif;
     padding-top: 25vw;
     padding-left: 6vw;
 }
@@ -169,12 +168,56 @@ body{
 .features{
     background-color: var(--color-three);
     width: 100%;
+}
+
+.features .bord{
+    border: 3px solid transparent;
+    padding: 2vw;
+    padding-top: 1.5vw;
+    margin-left: 4.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    transition: 0.4s;
+}
+
+.features img{
+    border: 5px solid #000;
+    height: 22vw;
+    width: 23vw;
+}
+
+.features h2{
+    color: var(--color-three);
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.features p{
+    color: var(--color-three);
+    font-size: 1vw;
+    text-align: center;
+}
+
+.features .bord:hover{
+    background-color: #fff;
+}
+/*GALLERY*/
+.gallery{
+    background-color: var(--color-six);
+    width: 100%;
     padding: 5vw;
     padding-bottom: 7vw;
     padding-top: 7vw;
 }
 
-.features img{
+.gallery .container{
+    border: #000 solid 7px;
+    width: 100%;
+    padding: 0;
+}
+
+.gallery img{
     height: 80%;
     width: 100%;
 }
@@ -189,7 +232,7 @@ body{
     width: 10%;
 }
 
-.features .ct .text {
+.gallery .ct .text {
   position: absolute;
   top: 27vw;
   left: 19vw;
@@ -199,7 +242,7 @@ body{
   font-family: 'Bebas Neue', cursive;
 }
 
-.features .ct .text2{
+.gallery .ct .text2{
   position: absolute;
   top: 27vw;
   left: 26vw;
@@ -212,11 +255,12 @@ body{
 /*TEASER*/
 .teaser{
     width: 100%;
-    background-color: var(--color-six);
+    background-color: var(--color-three);
     padding: 5vw;
 }
 
 .teaser iframe{
+    border: 3px double #fff;
     height: 40vw;
     width: 80vw;
     margin-left: 5vw;
