@@ -16,12 +16,23 @@
     </head>
     
 	<body>
-	<!--HOME-->
-
+         <div class="modal fade" id="feedback" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" >Wanna Leave Us A Feedback ?</h5>
+      </div>
+      <div class="modal-body">
+      </div>
+    </div>
+  </div>
+</div>
+        
+        <!--HOME-->
         <div class="navb">
             <a href="#home"> <img src="images/logo3.png"><span><h1>FilterrUp</h1></span> </a>
             <div class="bar">
-                <a href="#feedback"><b>Feedback</b></a>
+                <a href="#" data-toggle="modal" data-target="#feedback"><b>Feedback</b></a>
                 <a href="#teaser"><b>TEASER</b></a>
                 <a href="#gallery"><b>Gallery</b></a>
                 <a href="#features"><b> features </b></a>
@@ -51,7 +62,7 @@
                 <tr>
                     <td>
             <div class="bord">
-                <img src="images/transition.gif">
+                <img class="active" src="images/transition.gif">
                 <h2>Astounding Transition Effects</h2>
                 <p>Make your ideas come alive by adding the stunning<br> transition effects in your work. </p>
             </div>
@@ -76,18 +87,21 @@
                         <div class="bord">
                             <img src="images/overlay.gif">
                             <h2>Colourful Filters And Overlays</h2>
+                            <p>Make your ideas more vibrant by adding filters<br> on top and you are all set to go. </p>
                         </div>
                     </td>
                     <td>
                         <div class="bord">
                             <img src="images/explosion.webp">
                             <h2>Amazing 3D effects</h2>
+                            <p>Add the staggering 3D effects to your ideas to<br> make them come out of the box.</p>
                         </div>
                     </td>
                     <td>
                         <div class="bord">
                             <img src="images/merge.gif">
                             <h2>Merge Your Scenes</h2>
+                            <p>Merge more than 2 scenes together to get<br> stunning outcomes.</p>
                         </div>
                     </td>
                 </tr>
@@ -139,5 +153,6 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
     </body>
 </html>
