@@ -297,8 +297,45 @@ body{
     background-color: var(--color-six);
 }
 
-.modal-lg{
-    height: 60%;
+input[ type="text"], select, textarea{
+    width: 100%;
+    padding: 0.5vw;;
+    border: 2px #16263b solid;
+    box-sizing: border-box;
+    margin-bottom: 0.5vw;
+    resize: vertical;
+    background-color: #222;
+    color: var(--color-five);
+    font-family: monospace;
+    border-radius: 0.5vw;
+    border: none;
+}
+
+input[type="submit"]{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5vw 3vw;;
+    cursor: pointer;
+    border-radius: 1vw;
+    margin-top: 1.5vw;
+    margin-left: 17vw;
+    margin-bottom: 1vw;
+}
+
+input[type=submit]:hover {
+  background-color: #222;
+}
+
+.con{
+    padding: 2.5vw;
+    padding-top: 4vw;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 1vw;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 1vw;
 }
 
 /*FOOTER*/
