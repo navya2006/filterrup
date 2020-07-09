@@ -286,6 +286,7 @@ body{
 }
 
 /*FEEDBACK*/
+
 .modal-header{
     background-color: #222;
     color: var(--secondary-color);
@@ -304,11 +305,11 @@ input[ type="text"], select, textarea{
     box-sizing: border-box;
     margin-bottom: 0.5vw;
     resize: vertical;
-    background-color: #222;
+    background-color: #333;
     color: var(--color-five);
     font-family: monospace;
     border-radius: 0.5vw;
-    border: none;
+    border: 3px solid #000;
 }
 
 input[type="submit"]{
@@ -318,7 +319,7 @@ input[type="submit"]{
     cursor: pointer;
     border-radius: 1vw;
     margin-top: 1.5vw;
-    margin-left: 17vw;
+    margin-left: 15vw;
     margin-bottom: 1vw;
 }
 
@@ -329,7 +330,6 @@ input[type=submit]:hover {
 .con{
     padding: 2.5vw;
     padding-top: 4vw;
-    background-color: rgba(0,0,0,0.2);
     border-radius: 1vw;
 }
 
