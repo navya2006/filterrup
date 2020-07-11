@@ -342,10 +342,68 @@ label{
     margin-top: 1.5vw;
 }
 
+/*BUY NOW*/
+
+.buy{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 50vw;
+}
+
+.buy::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/buyn.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    width: 100%;
+    height: 50vw;
+    z-index: -1;
+    overflow-y: hidden;
+}
+
+.buy .bor{
+    margin-left: 6.5vw;
+    margin-bottom: 5vw;
+    margin-top: 2vw;
+    border: #fff solid 3px;
+}
+
+.buy .bor .now{
+    background-color: #333;
+    color: var(--color-five);
+    font-family: 'Domine', serif; 
+    font-size: 1.5vw;
+    padding: 8vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.buy h2{
+    color: #fff;
+    -webkit-text-stroke: 2px #fff;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 11vw;
+    font-family: 'Bree Serif', serif;
+}
+
+.buy .bor .now:hover{
+    background-image: url(images/sm2.jpeg);
+}
+
+.buy .bor:hover{
+    border: #000 solid 4px;
+}
+
 /*FOOTER*/
 .footer{
     width: 100%;
-    background-color: var(--color-four);
+    background-color: #222;
 }
 
 .footer h1{
@@ -373,7 +431,7 @@ label{
     color: #fff;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.4;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-align: center;
     padding-top: 0.3vw;
 }
