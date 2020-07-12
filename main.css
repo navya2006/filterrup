@@ -5,7 +5,7 @@
     --color-four: #333;
     --color-five: #fff;
     --color-six: #ffde85;
-    --color-seven: #63f0f2;
+    --color-seven: #8697f7;
     
 }
 
@@ -283,6 +283,7 @@ body{
     width: 80vw;
     margin-left: 5vw;
     margin-top: 3vw;
+    margin-bottom: 5vw;
 }
 
 /*FEEDBACK*/
@@ -317,7 +318,7 @@ input[ type="text"], select, textarea{
 input[type="submit"]{
     background-color: #000;
     color: #fff;
-    padding: 0.5vw 3vw;;
+    padding: 0.5vw 3vw;
     cursor: pointer;
     border-radius: 1vw;
     margin-top: 1.5vw;
@@ -380,7 +381,7 @@ label{
     padding-left: 2vw;
     padding-right: 2vw;
     text-align: center;
-    transition: 0.4s;
+    transition: 0.6s;
 }
 
 .buy h2{
@@ -398,6 +399,37 @@ label{
 
 .buy .bor:hover{
     border: #000 solid 4px;
+}
+
+.buy .modal-header{
+    background-color: #222;
+    color: var(--color-five);
+    font-size: 5vw;
+    text-align: center;
+}
+
+.buy .modal-body {
+    background-color: var(--color-seven);
+    border: #444 solid;
+    border-width: thick;
+}
+
+.buy .modal-footer{
+    background-color: #222;
+    color: var(--color-five);
+    text-align: center;
+}
+
+.buy .btn{
+    background-color: #555;
+    color: var(--color-seven);
+    font-size: 1vw;
+    text-align: center;
+    border: 2px #000 solid;
+}
+
+.buy .btn:hover{
+    background-color: #333;
 }
 
 /*FOOTER*/
