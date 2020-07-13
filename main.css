@@ -396,6 +396,7 @@ label{
 
 .buy .bor .now:hover{
     background-image: url(images/sm2.jpeg);
+	background-size:cover;
 }
 
 .buy .bor:hover{
