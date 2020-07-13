@@ -382,6 +382,7 @@ label{
     padding-right: 2vw;
     text-align: center;
     transition: 0.6s;
+    text-decoration: none;
 }
 
 .buy h2{
