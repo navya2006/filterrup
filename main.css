@@ -277,11 +277,10 @@ body{
     padding: 5vw;
 }
 
-.teaser iframe{
-    border: 3px double #fff;
+.teaser video{
     height: 40vw;
-    width: 80vw;
-    margin-left: 5vw;
+    width: 71vw;
+    margin-left: 9vw;
     margin-top: 3vw;
     margin-bottom: 5vw;
 }
