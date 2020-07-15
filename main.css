@@ -5,7 +5,7 @@
     --color-four: #333;
     --color-five: #fff;
     --color-six: #ffde85;
-    --color-seven: #8697f7;
+    --color-seven: #c37df5;
     
 }
 
@@ -413,6 +413,10 @@ label{
     background-color: var(--color-seven);
     border: #444 solid;
     border-width: thick;
+    font-size: 1.4vw;
+    font-family: 'Grenze Gotisch', cursive;
+    color: #000;
+    text-align: center;
 }
 
 .buy .modal-footer{
