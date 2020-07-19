@@ -24,6 +24,65 @@ body{
     overflow-x: hidden;
 }
 
+.load {
+   height: 100%;
+   width: 100%;
+   background-color: #000;
+   text-align: center;
+   padding-top: 20%;
+   z-index: 9999;
+}
+
+.mainBod {
+   display: none;
+}
+
+.loader-wheel-3 {
+   display: block;
+   position: relative;
+   border-radius: 50%;
+   border: 3px solid transparent;
+   border-top-color: #eee;
+   height: 150;
+   width: 150;
+   -webkit-animation: spin-3 2s linear infinite;
+}
+   
+.loader-wheel-3::after {
+   content: "";
+   position: absolute;
+   border-radius: 50%;
+   border: 3px solid transparent;
+   border-top-color: var(--secondary-color);
+   top: 5px;
+   left: 5px;
+   right: 5px;
+   bottom: 5px;
+   -webkit-animation: spin-3 3s linear infinite;
+}
+   
+.loader-wheel-3::before {
+   content: "";
+   position: absolute;
+   border-radius: 50%;
+   border: 3px solid transparent;
+   border-top-color: #7f7f7f;
+   top: 15px;
+   left: 15px;
+   right: 15px;
+   bottom: 15px;
+   -webkit-animation: spin-3 1.5s linear infinite;
+}
+
+@keyframes spin-3 {
+   0% {
+      transform: rotate(0deg)
+   }
+   100% {
+      transform: rotate(360deg)
+   }
+}
+
 /*NAVBAR*/
 .navb{
     background-color: var(--primary-color);
