@@ -6,10 +6,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Piedra&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alfa+Slab+One&family=Bangers&family=Bebas+Neue&family=Fjalla+One&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Raleway:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Domine:wght@700&family=Lobster&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Josefin+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Grenze+Gotisch&display=swap" rel="stylesheet">
+		
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@800&family=Lilita+One&family=Special+Elite&display=swap" rel="stylesheet">
+		
         <script src="fontawesome.js"></script>
         <script src="index.js"></script>
        
@@ -36,14 +45,14 @@
           <div class="con">
               <form action="#home" class="modal('hide')">
                   
-                  <label for="name"><b>Your Name</b></label>
-                  <input type="text" id="name" name="name" placeholder="Your Name Here...">
+                  <label for="name"><b>Your Name:</b></label>
+                  <input type="text" id="name" name="name" placeholder="Name...">
                   
-                  <label for="email"><b> Your Email-Id</b></label>
-                  <input type="text" id="email" name="email" placeholder="Your Email-Id Here...">
+                  <label for="email"><b> Your Email-Id:</b></label>
+                  <input type="text" id="email" name="email" placeholder="Email-Id...">
                   
-                  <label for="review"><b>Your Review Here</b></label>
-                  <textarea id="review" name="review" placeholder="Write something..." style="height: 13vw;"></textarea>
+                  <label for="review"><b>Your Review Here:</b></label>
+                  <textarea id="review" name="review" placeholder="Feedback..." style="height: 13vw;"></textarea>
                   
                   <input type="submit" value="Submit">
               </form>
@@ -57,12 +66,12 @@
         <div class="navb">
             <a href="#home"> <img src="images/logo3.png"><span><h1>FilterrUp</h1></span> </a>
             <div class="bar">
-                <a href="#" data-toggle="modal" data-target="#feedback"><b>Feedback</b></a>
-				<a href="#plans"> <b> PLANS </b></a>
-                <a href="#teaser"><b>TEASER</b></a>
-                <a href="#gallery"><b>Gallery</b></a>
-                <a href="#features"><b> features </b></a>
-                <a href="#about"><b>about</b></a>
+                <a href="#" data-toggle="modal" data-target="#feedback">Feedback</a>
+				<a href="#plans"> Plans </a>
+                <a href="#teaser">Teaser</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#features">Feaures</a>
+                <a href="#about">About</a>
             </div>
         </div>
         <div class="home" id="home">
@@ -166,37 +175,39 @@
         </div>
         
         <div class="teaser" id="teaser">
+		<h1> TAKE A LOOK! </h1>
+		<i class="fal fa-horizontal-rule icon-large"></i>
             <video controls>
             <source src="Teaser.mp4" type="video/mp4">
             </video>
         </div>
         
         <div class="buy" id="plans">
-            <h2>Choose The Plan Which Suits You The Best</h2>
+            <h2>CHOOSE THE PLAN THAT SUITS YOU THE BEST...</h2>
             <table>
                 <tr>
                     <td>
                 <a href="#" data-toggle="modal" data-target="#wizard"><div class="bor">
-                    <div class="now"><b>Buy the FilterrUp<br>Wizard Pro Plan </b></div>
+                    <div class="now"><b>WIZARD PRO PLAN! </b></div>
                 </div>
                     </a>
                     </td>
                     
                     <td>
                 <a href="#" data-toggle="modal" data-target="#champion"><div class="bor">
-                    <div class="now"><b>Buy the FilterrUp <br>Champions Plan</b></div>
+                    <div class="now"><b>CHAMPIONS PLAN!</b></div>
                 </div>
                 </a>
                     </td>
                     <td>
                 <a href="#" data-toggle="modal" data-target="#master"><div class="bor">
-                            <div class="now"><b>Buy the FilterrUp<br> Master Plan</b></div>
+                            <div class="now"><b>MASTER PLAN!</b></div>
                 </div>
                         </a>
                     </td>
                     <td>
                  <a href="#" data-toggle="modal" data-target="#trial"><div class="bor">
-                    <div class="now"><b>Try the FilterrUp<br> Free Trial</b></div>
+                    <div class="now"><b>FREE TRIAL FOR <br>30 DAYS!</b></div>
                 </div>
                         </a>
                     </td>
@@ -206,15 +217,20 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel" >The Wizard Pro Plan</h5>
+        <h5 class="modal-title" id="exampleModalLabel" >Wizard Pro Plan</h5>
       </div>
       <div class="modal-body">
-            1. Write what all is included with this pack....<br><br>
-            2. how much it costs....<br><br>
-          blah blah blah stufff....
-        </div>
+	  <div class="bg">
+	  Highlights:<br><br>
+            1. Get access to our entire library of media at no extra cost!<br><br>
+            2. Free tutorial videos inclusive in the software!<br><br>
+			3. Clear your queries with professionals anytime through our live chat feature! <br><br>
+		<b>All this and more at Rs. 10,000 per year ONLY! </b>
+		  </div>
+		  </div>
         <div class="modal-footer">
-        <button type="button" class="btn">BUY NOW</button>
+		<button type="button" class="btn" style="text-align:left;"><b>KNOW MORE</b></button>
+        <button type="button" class="btn"><b>BUY NOW</b></button>
       </div>
       </div>
     </div>
@@ -223,15 +239,20 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel" >The Champions Plan</h5>
+        <h5 class="modal-title" id="exampleModalLabel" >Champions Plan</h5>
       </div>
       <div class="modal-body">
-            1. Write what all is included with this pack....<br><br>
-            2. how much it costs....<br><br>
-          blah blah blah stufff....
+	  <div class="bg">
+	  Highlights: <br><br>
+            1. Get free access to our image editing software <i>MasterCut</i> !<br><br>
+            2. Become a collaborator and add your templates to our library to get a special discount! <br><br>
+			3. Use exclusive features and effects!<br><br> 
+		<b>All this and more at Rs. 8,000 ONLY!</b>
+		  </div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn">BUY NOW</button>
+		<button type="button" class="btn" style="text-align:left;"><b>KNOW MORE</b></button>
+        <button type="button" class="btn"><b>BUY NOW</b></button>
       </div>
       </div>
     </div>
@@ -240,15 +261,20 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel" >The Master Plan</h5>
+        <h5 class="modal-title" id="exampleModalLabel" >Master Plan</h5>
       </div>
       <div class="modal-body">
-            1. Write what all is included with this pack....<br><br>
-            2. how much it costs....<br><br>
-          blah blah blah stufff....
+	  <div class="bg">
+	  Highlights:<br><br>
+            1. Use this software for professional purposes at no extra cost!<br><br>
+            2. Choose from a plethora of templates! <br><br>
+			3. Create realistic animations and graphics with just a click! <br><br>
+		<b>All this and more at Rs. 4,000 ONLY! </b>
+		  </div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn">BUY NOW</button>
+		<button type="button" class="btn" style="text-align:left;"><b>KNOW MORE</b></button>
+        <button type="button" class="btn"><b>BUY NOW</b></button>
       </div>
       </div>
     </div>
@@ -257,15 +283,20 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel" >The Free Trial</h5>
+        <h5 class="modal-title" id="exampleModalLabel" >Free Trial</h5>
       </div>
       <div class="modal-body">
-            1. Write what all is included with this pack....<br><br>
-            2. how much it costs....<br><br>
-          blah blah blah stufff....
+	  <div class="bg">
+	  Highlights:<br><br>
+            1. Use all our premium features!<br><br>
+            2. Plenty of time to make up your mind!<br><br>
+			3. Edit and animate like a pro with no prior experience! <br><br>
+		<b>All this and more for FREE!</b>
+		  </div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn">BUY NOW</button>
+		<button type="button" class="btn" style="text-align:left;"><b>KNOW MORE</b></button>
+        <button type="button" class="btn"><b>DOWNLOAD NOW</b></button>
       </div>
       </div>
     </div>
@@ -276,7 +307,7 @@
         <div class="footer">
             <h1>FilterrUp</h1>
             <h2>&copy; 2020 All Rights Reserved</h2>
-            <p>MADE BY NAVYA ARORA AND SAKINA NADEEM</p>
+            <p>DEVELOPED AND MAINTAINED BY NAVYA ARORA AND SAKINA NADEEM</p>
             <br><br>
         </div>
         
