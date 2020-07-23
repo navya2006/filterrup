@@ -9,6 +9,10 @@
     
 }
 
+a{
+	text-decoration:none !important;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -142,6 +146,7 @@ body{
 	background-color:rgba(0,0,0,0.8);
     border-bottom-color: #fff;
     opacity: 1;
+	
 }
 
 .navb h1:hover{
@@ -178,7 +183,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.3vh #000; 
-    font-size: 13vw;
+    font-size: 27vh;
     font-family: 'Baloo Da 2', cursive;
     padding-top: 18vw;
     padding-left: 6vw;
@@ -495,20 +500,20 @@ label{
 .buy .bor .now:hover{
     background-image: url(images/gradient.jpg);
 	background-position:center;
-	background-size:cover;
-	text-decoration:none;
+	background-size: cover;
+	text-decoration: none !important;
 }
 
 .buy .bor:hover{
     border: #000 solid 4px;
-	text-decoration:none;
+	text-decoration:none !important;
 }
 
 .buy .modal-header{
     background-color: #222;
     color: var(--color-five);
     font-size: 5vw;
-    text-align: center;
+    text-align: center !important;
 }
 
 .buy .modal-body {
@@ -565,6 +570,7 @@ label{
     font-family: 'Raleway', cursive;
     letter-spacing: 0.5vw;
     padding-top: 7vw;
+	text-decoration:none !important;
 }
 
 .footer h2{
@@ -574,6 +580,7 @@ label{
     padding-top: 0.5vw;
     text-align: center;
     letter-spacing: 0.4;
+	text-decoration:none !important;
 }
 
 .footer p{
@@ -583,4 +590,5 @@ label{
     font-size: 1.3vw;
     text-align: center;
     padding-top: 0.3vw;
+	text-decoration:none !important;
 }
