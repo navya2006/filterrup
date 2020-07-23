@@ -9,3 +9,4 @@
       document.getElementById("load").style.display = "none";
       document.getElementById("mainBod").style.display = "block";
    } 
+
