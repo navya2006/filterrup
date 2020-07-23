@@ -4,7 +4,7 @@
     --color-three: #16263b;
     --color-four: #333;
     --color-five: #fff;
-    --color-six: #ffde85;
+    --color-six: #9ed2ff;
     --color-seven: #c37df5;
     
 }
@@ -95,6 +95,7 @@ body{
     position: absolute;
     top: 0;
     position: fixed;
+    transition: 0.4s;
     z-index: 999;
 }
 
@@ -107,9 +108,9 @@ body{
     font-size: 1.2vw;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.5;
-    padding: 1vw 1vw;
+    padding: 1.5vw 1vw;
     text-decoration: none;
-    margin-right: 3vw;
+    padding-right: 1vw;
     position: relative;
     opacity: 0.8;
     transition: 0.5s;
@@ -121,6 +122,7 @@ body{
     font-size: 2.2vw; 
     float: left;
     padding-top: 0.8vw;
+    padding: 1vw 1vw;
     border: 3px solid transparent;
     transition: 0.5s;
 }
@@ -130,7 +132,7 @@ body{
 	width:4.3vw;
 	float:left;
 	padding:0.5vw;
-	padding-top:0.7vw;
+	padding-top:0.9vw;
 	margin:auto;
 	margin-left:2vw;
 	transition:0.3s;
@@ -138,7 +140,7 @@ body{
 }
 
 .navb:hover {
-	background-color:rbga(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.6);
 }
 
 .navb .bar a:hover {
