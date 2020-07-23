@@ -89,6 +89,7 @@ body{
 
 /*NAVBAR*/
 .navb{
+    background-color: transparent;
     padding: 0px 0px;
     width: 100%;
     position: absolute;
@@ -183,7 +184,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.3vh #000; 
-    font-size: 27vh;
+    font-size: 13vx
     font-family: 'Baloo Da 2', cursive;
     padding-top: 18vw;
     padding-left: 6vw;
