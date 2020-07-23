@@ -4,7 +4,7 @@
     --color-three: #16263b;
     --color-four: #333;
     --color-five: #fff;
-    --color-six: #ffde85;
+    --color-six: #9ed2ff;
     --color-seven: #c37df5;
     
 }
@@ -91,6 +91,7 @@ body{
     position: absolute;
     top: 0;
     position: fixed;
+    transition: 0.4s;
     z-index: 999;
 }
 
