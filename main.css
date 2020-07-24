@@ -301,11 +301,28 @@ body{
 
 /*GALLERY*/
 .gallery{
-    background-color: var(--color-six);
+    background-color: var(--color-three);
     width: 100%;
     padding: 5vw;
     padding-bottom: 7vw;
     padding-top: 7vw;
+}
+
+.gallery h2 {
+	font-size:4vw;
+	font-family:'Raleway', sans-serif;
+	color:#fff;
+	padding-top:2vh;
+	text-align:center;
+}
+
+.gallery .icon-large{
+    font-size: 9vw;
+    width: 0.4vw;
+	margin-top:0;
+    margin-left:44%;
+    color: #fff;
+	margin-bottom:2vh;
 }
 
 .gallery .container{
@@ -352,7 +369,7 @@ body{
 /*TEASER*/
 .teaser{
     width: 100%;
-    background-color: var(--color-three);
+    background-color: var(--color-six);
     padding: 5vw;
 }
 
@@ -367,7 +384,7 @@ body{
 .teaser h1 {
 	font-size:6vw;
 	font-family:'Raleway', sans-serif;
-	color:#fff;
+	color:#000;
 	padding-top:2vh;
 	text-align:center;
 }
@@ -377,7 +394,7 @@ body{
     width: 0.4vw;
 	margin-top:0;
     margin-left:44%;
-    color: #fff;
+    color: #000;
 }
 
 /*FEEDBACK*/
