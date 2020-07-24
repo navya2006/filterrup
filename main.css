@@ -291,7 +291,7 @@ body{
     background-color: #fff;
 }
 
-.features .bord:hover> h2{
+.features .bord:hover h2{
     opacity: 1;
     color: var(--color-three);
 }
@@ -357,7 +357,7 @@ body{
     height: 40vw;
     width: 71vw;
     margin-left: 9vw;
-    margin-top: 2vw;
+    margin-top: 1vw;
     margin-bottom: 5vw;
 }
 
@@ -372,6 +372,7 @@ body{
 .teaser .icon-large{
     font-size: 9vw;
     width: 0.4vw;
+	margin-top:0;
     margin-left:44%;
     color: #fff;
 }
