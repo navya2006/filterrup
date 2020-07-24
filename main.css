@@ -242,6 +242,7 @@ body{
     width: 100%;
     padding-top: 7vw;
     padding-bottom: 7vw;
+	padding-right:5vw;
 }
 
 
@@ -249,11 +250,13 @@ body{
     border: 3px solid transparent;
     padding: 2vw;
     padding-top: 1.5vw;
-    margin-left: 4.5vw;
+    margin-left: 3vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
     transition: 0.4s;
 	border-radius:0.5vw;
+	width:30vw;
+	float:center;
 }
 
 .features img{
